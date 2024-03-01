@@ -1,0 +1,79 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em;
+}
+#populardestinations {
+  border: 4px solid rgb(102, 244, 1);
+  margin: 4px;
+}
+.city {
+  border: 3px dotted blue;
+  font-weight: bold;
+}
+.season {
+  margin: 8px;
+  font-weight: bolder;
+  text-align: center;
+}
+#goa {
+ border: 2px dotted blue;
+ margin: 4px;
+}
+#kochi {
+  border: 2px dashed rgb(243, 6, 156);
+  margin: 4px;
+
+ }
+ #vara {
+  border: 2px ridge blue;
+  margin: 4px;
+
+ }
+ #nagar {
+  border: 2px solid blue;
+  margin: 4px;
+
+ }
+ #indianclimate {
+  border: 2px outset blueviolet;
+  margin: 20px;
+ }
+ #summer {
+  border: 2px solid rgb(227, 182, 21);
+  margin: 4px;
+ }
+ #winter {
+  border: 2px solid rgb(43, 202, 226);
+  margin: 4px;
+ }
+ #rainy {
+  border: 2px solid rgb(226, 73, 43);
+  margin: 4px;
+ }
+ #spring {
+  border: 2px solid rgb(131, 226, 43);
+  margin: 4px;
+ }
+ .cityheading {
+  /* font: italic small-caps bold 40px'Arial Black'; */
+  text-decoration: underline;
+   text-align: center;
+ }
+ .seasonheading {
+  font-family: cursive;
+  font-size: 160%;
+  font-style: italic;
+  text-align: center;
+  color: fuchsia;
+  .seasonpara {
+    text-indent: 40px;
+    letter-spacing: -5px;
+  }
+  
+ }
+ h1 {
+  font-variant: small-caps;
+ }
+ h4 {
+ text-transform: uppercase;
+ }
