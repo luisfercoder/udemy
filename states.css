@@ -1,13 +1,35 @@
 .state {
- background-color: rgb(255, 157, 0);
- margin: 25px 10px 20px 10px;
+ /* background-image:linear-gradient(red,green,blue); */
+ margin: 35px 15px 35px 10px; 
  padding:10px;
- height: 100px;
+ height: 75px;
  width: 350px;
  font-size: 18px;
-
+ border: 8px solid  rgb(255, 106, 0);
  float: left;
+ /* border-radius: 6px 60px; */
+ box-shadow: 10px 20px 10px 5px blue;
+  /* transition: background-color 1s,font-size 1s,transform 1s,rotate 1s;  */
+ /* transform-origin:bottom left ; */
+ 
 }
-#queretaro {
-  clear: both;
+@keyframes myanimation
+{
+ 0%{background-color: green;transform: rotate(0deg)scale(1);}
+ 25%{background-color: rgb(228, 251, 54);transform:rotate(-90deg)scale(1.5);}
+ 50%{background-color: rgb(59, 246, 212);transform:rotate(90deg)scale(1.5);}
+ 75%{background-color: rgb(57, 57, 240);transform: rotate(0deg)scale(2);}
+ 100%{background-color: green;transform: rotate(0)scale(1);}
 }
+.state:active { 
+  /* background-color: red; */
+  /* font-size: 40px; */
+  /* transform: scale(0.5) rotate(360deg); */
+  /* transform: rotate(40deg); */
+  transform: rotate3d(0.2,1,0.2,180deg);
+  animation: myanimation 10s;
+}
+ #queretaro {
+  /* outline: 6px dashed green; */
+  outline-offset: 8px;
+ }   
